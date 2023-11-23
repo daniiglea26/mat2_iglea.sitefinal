@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Histórias e Estórias</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Literatura brasileira</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ficção científica</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Inpirados em fatos reais</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Fantasia</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">HQs e Mangás</a>
+                </li>
+            </ul>
+            <img src="fotos/Histórias.png" alt="Logo da Livraria" class="container__imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img src="fotos/Favoritos.svg" alt="Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="fotos/Compras.svg" alt="Sacola" class="container__imagem"></a>
+            <a href="#"><img src="fotos/Usuário.svg" alt="Perfil" class="container__imagem"></a>
+        </div>
+        </header>
+
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe o que procurar?</h2>
+            <p class="banner__texto">Encontre aqui livros de todos os tipos e para todos os gostos!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima compra?">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Sugestões</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="fotos/Mike.jpg" alt="As aventuras de Mike"></div>
+                    <div class="swiper-slide"><img src="fotos/Pantera.jpg" alt="Pantera Negra: Vingadores do novo mundo livro um"></div>
+                    <div class="swiper-slide"><img src="fotos/SDA.2.jpg" alt="As duas torres: O senhor dos anéis parte II"></div>
+                    <div class="swiper-slide"><img src="fotos/Herosinho.jpg" alt="Herobrine: A lenda"></div>
+                    <div class="swiper-slide"><img src="fotos/Harry.jpg" alt="Harry Potter e a pedra filosofal"></div>
+                    <div class="swiper-slide"><img src="fotos/Baleia.jpg" alt="Moby Dick"></div>
+                </div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="fotos/Jurassic.png"
+                            alt="Jurassic Park"></div>
+                    <div class="swiper-slide"><img src="fotos/Não.legends.jpeg"
+                            alt="Obi-wan e Anakin"></div>
+                    <div class="swiper-slide"><img src="fotos/PP.jpg"
+                            alt="O pequeno príncipe"></div>
+                    <div class="swiper-slide"><img src="fotos/Árvore.jpg" alt="Árvore e folha"></div>
+                    <div class="swiper-slide"><img src="fotos/Augusto.jpg" alt="O mestre inesquecível"></div>
+                    <div class="swiper-slide"><img src="fotos/Thor.jpg" alt="Thor o deus do trovão: O carniceiro dos deuses"></div>
+                </div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1° linha -->
+                <div class="card__descrição">
+                    <!-- 1° coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descrição__titulo-livro">O Poder da Ação</h2>
+                        <p class="descrição__texto">Paulo Vieira lhe convida a quebrar o ciclo vicioso e iniciar um caminho de realização. Para isso, ele apresenta o método, que pode ser a chave para o que você tanto procura.
+                        </p>
+                    </div>
+                    <!-- 2° coluna -->
+                    <img src="fotos/Ação.jpg" class="descrição__imagem">
+                </div>
+
+                <!-- 2° linha -->
+                <div class="card__botões">
+                    <!-- 1° coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="fotos/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="fotos/Compras.svg" alt="Adicionar na sacola"></li>
+                    </ul>
+                    <!-- 2° coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+        <section class=”carrossel”>
+            <h2 class="carrossel__titulo">Em alta</h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="fotos/Nárnia.jpg" alt="As crônicas de Nárnia: O leão, a feiticeira e o guarda-roupa"></div>
+                    <div class="swiper-slide"><img src="fotos/Star Wars.jpg" alt="Star Wars: Kenobi"></div>
+                    <div class="swiper-slide"><img src="fotos/Lewis.religião.webp" alt="Cristianismo puro e simples"></div>
+                    <div class="swiper-slide"><img src="fotos/Front.jpg" alt="Nada de novo no front"></div>
+                    <div class="swiper-slide"><img src="fotos/GG.jpg" alt="Guardiões da Galáxia: Imperador Quill"></div>
+                    <div class="swiper-slide"><img src="fotos/Rico.Pobre.jpg" alt="Pai rico, Pai pobre"></div>
+                </div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="fotos/Estrelinhas.png" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Autores do Mês</h3>
+                        <h2 class="descrição__titulo-livro">Gabriel Dearo e Manu Digílio</h2>
+                        <p class="descrição__texto">Formados em Publicidade e Propaganda, o casal de Youtubers, agora são autores Best-sellers.
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="fotos/Manu e Dearo.jpg" class="descrição__imagem">
+                </div>
+    
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="fotos/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="fotos/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="tópicos__lista">
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Tolkien</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Panini Comics</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">História</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">C.S Lewis</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Harry Potter</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Planeta</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Percy Jackson</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Infantojuvenil</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contato">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações, novos livros, promoções e muito mais.</p>
+            <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+        </section>
+
+        <hr/>
+        <footer class="rodapé">
+            <h2 class="rodapé__titulo">Livraria Histórias e Estórias</h2>
+        </footer>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+        </script>
+    </body>
+
+</html>
